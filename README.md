@@ -78,6 +78,24 @@ Tradução
 O Azure Speech Translation permite que você traduza fala de um idioma para outro em tempo real. Isso pode ser útil para conferências multilíngues ou sistemas de atendimento ao cliente que atendem a uma base de usuários global. 
 
 
+# Desafio Projeto 2
+
+A IA de Documentos do Azure é uma tecnologia da Microsoft que ajuda empresas a ler e entender documentos automaticamente. Em vez de alguém precisar digitar informações de faturas, contratos ou formulários manualmente, essa inteligência artificial escaneia o documento, extrai os dados importantes e organiza tudo de forma automática.
+
+Ela funciona como um "leitor inteligente" que identifica textos, tabelas e até assinaturas em arquivos como PDFs e imagens. Isso economiza tempo e reduz erros, tornando o trabalho mais rápido e eficiente.
+
+Passo a passo do laboratório para usar essa tecnologia 
+
+Precisamos criar uma search service, dar um nome e selecionar o offering basic e vamos para overview.
+
+Depois precisamos ir em create a resource, e selecionar create azure AI services, selecionar um resource group e adicionar um pricing tier e selecionar o standard e marcar o check box abaixo.
+
+Depois temos que ir em storage account, adicionar o resource group, storage account name,  escolher a performance, e escolher o redundancy selecionando locally redundant storage e podemos ir em review.
+
+Precisamos fazer algumas configurações o storage, a primeira é deixando como enable a opção de allow blob anonymous acess e salvamos essa configuração.
+
+Vamos criar um novo container, e adicionar em upload os arquivos da documentação, agora temos que ir no AI Search e no importar dados vamos selecionar o container e temos que apontar onde estão os documentos e que tipo de informação eu quero buscar nesses documentos, e podemos filtrar algumas informações que precisamos.
+
 
 
 
